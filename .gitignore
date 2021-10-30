@@ -1,0 +1,14 @@
+.local
+.vscode
+.ssh
+.keras
+.ipython
+.pytest_cache
+thorlabs_tsi_camera_python_sdk_package.zip
+Scientific_Camera_Interfaces
+outputs/
+dlls/
+bin/
+raspberrypi/
+src/mkgif/images
+assets/*.gif

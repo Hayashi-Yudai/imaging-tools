@@ -1,0 +1,11 @@
+version: '3'
+services:
+  imaging:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mokemicroscope:1.0.0
+    volumes: 
+      - ${PWD}:/home/docker/
+    tty: true
+    command: /bin/bash

@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+matplotlib = "==3.3.4"
+scipy = "==1.6.2"
+tifffile = "==2021.4.8"
+tensorflow = "*"
+ipython = "*"
+tqdm = "==4.61.1"
+Pillow = "==8.2.0"
+PyVISA = "==1.11.3"
+thorlabs-tsi-sdk = {path = "./thorlabs_tsi_camera_python_sdk_package.zip"}
+pyyaml = "*"
+PySerial = "*"
+
+[dev-packages]
+black = "==21.6b0"
+pytest = "*"
+
+[requires]
+python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true
