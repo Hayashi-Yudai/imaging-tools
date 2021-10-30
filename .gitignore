@@ -4,11 +4,13 @@
 .keras
 .ipython
 .pytest_cache
+__pycache__
 thorlabs_tsi_camera_python_sdk_package.zip
 Scientific_Camera_Interfaces
 outputs/
 dlls/
 bin/
-raspberrypi/
+raspberrypi
+assets
+final_versions
 src/mkgif/images
-assets/*.gif

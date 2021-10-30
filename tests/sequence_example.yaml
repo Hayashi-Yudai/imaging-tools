@@ -1,0 +1,17 @@
+material: conbs
+output_folder: ./outputs/output
+log_folder: ./outputs/log
+cn_info:
+polarizer:
+  angle_start: 0
+  angle_end: 10
+  step: 10
+analyzer:
+  angle: 3.15 # crossed nicols からどれくらいの角度ずらして撮影するか
+camera:
+  scan_time: 300 # ms
+  intensity: 3000 # domain撮影時の平均強度
+  roi: [500, 1000, 1000, 1500] # region of interest
+capture:
+  scan_num: 4
+  domain_capture_num: 16
