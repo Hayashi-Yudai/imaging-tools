@@ -113,5 +113,5 @@ capture:
 `src/mkgif` ディレクトリで以下のコマンドを実行する。
 
 ```shell
-docker run --rm -v ${PWD}:/app
+docker run --rm -v ${PWD}:/app ${IMAGE_NAME}
 ```
